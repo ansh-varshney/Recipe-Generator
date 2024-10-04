@@ -271,7 +271,7 @@ def time_input():
   time=int(input())
   return time
 
-os.environ['API_KEY'] = 'AIzaSyDwsYB30DdiWp8_eLWM-Gl_dzqqxRL842Q'
+os.environ['API_KEY'] = #Enter valid api key.
 genai.configure(api_key=os.environ["API_KEY"])
 # Initialize the LLM Gemini Model
 model = genai.GenerativeModel("gemini-1.5-flash")
